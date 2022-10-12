@@ -6,12 +6,12 @@ public class Main {
 		BaseLogger[] loggers = new BaseLogger[] { new FileLogger(), new DatabaseLogger(), new ConsolLogger(),
 				new EmailLogger() };
 		for (BaseLogger logger : loggers) {
-			logger.Log("Log mesajı");
+			logger.log("Log mesajı");
 
 			
 		}
 		CustomerManager customerManager = new CustomerManager(new FileLogger());
-		customerManager.Add();
+		customerManager.add();
 	}
 
 }

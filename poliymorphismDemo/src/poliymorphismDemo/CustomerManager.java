@@ -8,8 +8,8 @@ public class CustomerManager {
 		this.baseLogger = baseLogger;
 	}
 
-	public void Add() {
+	public void add() {
 		System.out.println("Müşteri Eklendi...");
-		this.baseLogger.Log("Log Mesajı");
+		this.baseLogger.log("Log Mesajı");
 	}
 }
